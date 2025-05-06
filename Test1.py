@@ -61,7 +61,8 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 st.write(f"R² Score: {r2_score(y_test, y_pred):.4f}")
-st.write(f"RMSE: {mean_squared_error(y_test, y_pred, squared=False):.4f}")
+rmse = np.sqrt(mean_squared_error(y_test, y_pred))
+st.write(f"RMSE: {rmse:.4f}")
 
 # Classification Model
 st.subheader("🧠 Classification Model: Logistic Regression")
