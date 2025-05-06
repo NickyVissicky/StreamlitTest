@@ -1,11 +1,8 @@
 streamlit
 pandas
 seaborn
-matplotlib.pyplot
+matplotlib
 numpy
-statsmodels.stats.multicomp
-scipy.stats
-statsmodels.api
-sklearn.linear_model
-sklearn.model_selection
-sklearn.metrics
+statsmodels
+scipy
+scikit-learn
